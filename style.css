@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "calibri", sans-serif;
+  color: white;
+  border: none;
+  z-index: 1;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 5px;
+}
+body {
+  background-color: #212129;
+  padding: 1% 5%;
+}
+.p-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.flex {
+  display: flex;
+}
+.p-absolute {
+  position: absolute;
+}
+.z-0 {
+  z-index: 0;
+}
+.p-relative {
+  position: relative;
+}
+.col {
+  flex-direction: column;
+}
+.a-center {
+  align-items: center;
+}
+.padding-20 {
+  padding: 20px;
+}
+.t-center {
+  text-align: center;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.gap-5 {
+  gap: 5px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.c-orange {
+  color: orange;
+}
+.c-turquoise {
+  color: turquoise;
+}
+.italic {
+  font-style: italic;
+}
+.fs-x {
+  font-size: x-large;
+}
+.fs-xx {
+  font-size: xx-large;
+}
+.s-between {
+  justify-content: space-between;
+}
+.j-center {
+  justify-content: center;
+}
+section {
+  margin-top: 5%;
+}
+img {
+  width: 100%;
+}
+input {
+  border: 1px solid #404040;
+  height: 20px;
+}
+.max-width-12 {
+  max-width: 12%;
+}
+.card {
+  background-color: #2f2f3a;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  position: relative;
+  padding: 1%;
+}
+.btn {
+  background-color: turquoise;
+  width: 100px;
+  height: 25px;
+  padding: 5px;
+}
+.cart-logo {
+  border-radius: 5px 0px;
+  width: 30px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.cart-text {
+  border-radius: 0 0 5px 5px;
+  width: 100%;
+}
+.section-title {
+  width: 100%;
+  margin: 2% 0px;
+}
+.color-option {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-orange {
+  background-color: orange;
+}
+.bg-blue {
+  background-color: lightblue;
+}
+.bg-gray {
+  background-color: gray;
+}
+.bg-none {
+  background-color: transparent;
+}
+.section2 .left {
+  width: 60%;
+}
+.section2 .right {
+  width: 40%;
+}
